@@ -10,8 +10,8 @@ count = 1
 even_numbers = []
 
 while count <= n:
-    number = input("Enter number: ")
-    number = int(number)
+    number = int(input("Enter number: "))
+    
     
     if number % 2 == 0:
         even_numbers = even_numbers + [number]
